@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Stop Watch Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <i class="bi bi-cloud-sun-fill" id="_toggle_light_button_"></i>
+        <div class="time">
+            <span id="hour">00</span>
+            <span id="colo">:</span>
+            <span id="min">00</span>
+            <span id="colo">:</span>
+            <span id="sec">00</span>
+            <span id="ms-colo">.</span>
+            <span id="milisec">00</span>
+        </div>
+        <div class="all_buttons">
+            <button class="start" onclick="start()">start</button>
+            <button class="stop" onclick="stop()">stop</button>
+            <button class="reset" onclick="reset()">reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .time{
+    height: 100px;
+    background: rgba(177, 175, 175, 0.477);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.484);
+    padding: 0 5px;
+    position: relative;
+
+}
+
+.main .time span{
+    width: 90px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: 500;
+
+}
+.time span#ms-colo,
+.time span#milisec{
+    color: red;
+}
+.all_buttons{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.all_buttons button{
+    padding: 13px 28px;
+    width: 140px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    box-shadow: -3px -1px 10px rgba(92, 91, 91, 0.464);
+       
+}
+
+.start:hover{
+    background: #a1a1a19f;
+
+}
+.stop:hover{
+    background: #a1a1a19f;
+
+}
+.reset:hover{
+    background: #a1a1a19f;
+
+}
+
+#_toggle_light_button_{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-10%);
+}
